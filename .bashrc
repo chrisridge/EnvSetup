@@ -12,16 +12,16 @@ alias showrc="open ~/.bashrc"
 
 alias killport="sudo lsof -t -i tcp:8000 | xargs kill -9"
 
-alias .dt="cd ~/Desktop; clear; ls -F"
-alias .dc="cd ~/Documents; clear; ls -F"
-alias .dl="cd ~/Downloads; clear; ls -F"
-alias .hm="cd ~/; clear; ls -F"
-alias .b="cd ..; clear; ls -F"
-alias .bb="cd ../..; clear; ls -F"
-alias .bbb="cd ../../..; clear; ls -F"
-alias .bbbb="cd ../../../..; clear; ls -F"
-alias .back="cd -; clear; ls -F"
-alias .bk=.back
+alias ..dt="cd ~/Desktop; clear; ls -F"
+alias ..dc="cd ~/Documents; clear; ls -F"
+alias ..dl="cd ~/Downloads; clear; ls -F"
+alias ..hm="cd ~/; clear; ls -F"
+alias ..b="cd ..; clear; ls -F"
+alias ..bb="cd ../..; clear; ls -F"
+alias ..bbb="cd ../../..; clear; ls -F"
+alias ..bbbb="cd ../../../..; clear; ls -F"
+alias ..back="cd -; clear; ls -F"
+alias ..bk=..back
 
 alias gs='git status'
 alias ga='git add'
