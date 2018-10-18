@@ -34,5 +34,5 @@ alias gpull='git pull'
 alias gdiff='git diff'
 alias gmaster='git checkout master'
 
-alias show='defaults write com.apple.finder AppleShowAllFiles YES && killall Finder'
-alias hide='defaults write com.apple.finder AppleShowAllFiles NO && killall Finder'
+alias showallfiles='defaults write com.apple.finder AppleShowAllFiles YES && killall Finder'
+alias hideallfiles='defaults write com.apple.finder AppleShowAllFiles NO && killall Finder'
