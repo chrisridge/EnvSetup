@@ -14,6 +14,7 @@ alias killport="sudo lsof -t -i tcp:8000 | xargs kill -9"
 
 alias ..dt="cd ~/Desktop; clear; ls -F"
 alias ..dc="cd ~/Documents; clear; ls -F"
+alias ..pj="cd ~/Documents/Projects; clear; ls -F"
 alias ..dl="cd ~/Downloads; clear; ls -F"
 alias ..hm="cd ~/; clear; ls -F"
 alias ..b="cd ..; clear; ls -F"
