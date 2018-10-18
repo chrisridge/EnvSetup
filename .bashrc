@@ -6,9 +6,8 @@ export PS1="\[\e[36m\][\t] \H\[\e[m\]\[\e[33m\] \w\[\e[m\]\n\\$ "
 alias localip="ipconfig getifaddr en0"
 alias externalip="curl ipecho.net/plain; echo"
 
-alias editrc="open -a /Applications/'$CODE_EDITOR' ~/.bashrc"
 alias reloadrc="source ~/.bashrc"
-alias showrc="open ~/.bashrc"
+alias openrc="open ~/.bashrc"
 
 alias killport="sudo lsof -t -i tcp:8000 | xargs kill -9"
 
