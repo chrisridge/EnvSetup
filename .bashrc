@@ -21,14 +21,13 @@ alias .bb="cd ../..; clear; ls -F"
 alias .bbb="cd ../../..; clear; ls -F"
 alias .bbbb="cd ../../../..; clear; ls -F"
 alias .back="cd -; clear; ls -F"
-alias .bk=back
+alias .bk=.back
 
-# Git
 alias gs='git status'
 alias ga='git add'
-alias gaa='git add .' # git add all
-alias gc='git commit -m' # requires you to type a commit message
-alias gca='git commit -a -m' # requires you to type a commit message
+alias gaa='git add .' 
+alias gc='git commit -m' 
+alias gca='git commit -a -m'
 alias gpush='git push'
 alias gpull='git pull'
 alias gdiff='git diff'
