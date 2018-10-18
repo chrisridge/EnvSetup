@@ -9,7 +9,7 @@ alias externalip="curl ipecho.net/plain; echo"
 alias reloadrc="source ~/.bashrc"
 alias openrc="open ~/.bashrc"
 
-alias killport="sudo lsof -t -i tcp:8000 | xargs kill -9"
+alias kill8000="sudo lsof -t -i tcp:8000 | xargs kill -9"
 
 alias ..dt="cd ~/Desktop; clear; ls -F"
 alias ..dc="cd ~/Documents; clear; ls -F"
