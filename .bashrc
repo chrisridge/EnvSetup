@@ -2,7 +2,6 @@ TERMINAL_APP="/Applications/Utilities/Terminal.app"
 
 export PS1="\[\e[36m\][\t] \H\[\e[m\]\[\e[33m\] \w\[\e[m\]\n\\$ "
 
-
 alias localip="ipconfig getifaddr en0"
 alias externalip="curl ipecho.net/plain; echo"
 
