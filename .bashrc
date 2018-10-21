@@ -1,3 +1,5 @@
+TERMINAL_APP="/Applications/Utilities/Terminal.app"
+
 export PS1="\[\e[36m\][\t] \H\[\e[m\]\[\e[33m\] \w\[\e[m\]\n\\$ "
 
 
