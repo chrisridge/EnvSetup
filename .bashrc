@@ -2,11 +2,13 @@ TERMINAL_APP="/Applications/Utilities/Terminal.app"
 
 export PS1="\[\e[36m\][\t] \H\[\e[m\]\[\e[33m\] \w\[\e[m\]\n\\$ "
 
+
 alias localip="ipconfig getifaddr en0"
 alias externalip="curl ipecho.net/plain; echo"
 
 alias reloadrc="source ~/.bashrc"
 alias openrc="open ~/.bashrc"
+alias editrc="open ~/.bashrc"
 
 alias kill8000="sudo lsof -t -i tcp:8000 | xargs kill -9"
 
@@ -37,3 +39,6 @@ term () { open -a $TERMINAL_APP $1 ;}
 
 alias showallfiles='defaults write com.apple.finder AppleShowAllFiles YES && killall Finder'
 alias hideallfiles='defaults write com.apple.finder AppleShowAllFiles NO && killall Finder'
+
+# Start in the projects folder
+cdpj
