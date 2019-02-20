@@ -10,6 +10,9 @@ alias openrc="open ~/.bashrc"
 alias editrc="open ~/.bashrc"
 alias bashrc="open ~/.bashrc"
 
+alias vssh="vagrant ssh"
+alias vu="vagrant up && vagrant ssh"
+
 alias cddt="cd ~/Desktop; clear; ls -F"
 alias cddc="cd ~/Documents; clear; ls -F"
 alias cdpj="cd ~/Documents/Projects; clear; ls -F"
