@@ -40,7 +40,7 @@ term () { open -a $TERMINAL_APP $1 ;}
 alias showallfiles='defaults write com.apple.finder AppleShowAllFiles YES && killall Finder'
 alias hideallfiles='defaults write com.apple.finder AppleShowAllFiles NO && killall Finder'
 
-alias wrk='code . && term .'
+alias devenv='code . && term .'
 
 # Start in the projects folder
 cdpj
